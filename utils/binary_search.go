@@ -2,9 +2,9 @@ package utils
 
 import "errors"
 
-//BinarySearch, return index from sorted slice
-//sortedSlice must be sorted list
-//if index not found return -1 and error
+//  BinarySearch, return index from sorted slice
+//  sortedSlice must be sorted list
+//  if index not found return -1 and error
 func BinarySearch(sortedSlice []int, value int) (int, error) {
 	low := 0
 	high := len(sortedSlice) - 1
@@ -22,10 +22,10 @@ func BinarySearch(sortedSlice []int, value int) (int, error) {
 	return -1, errors.New("index not found")
 }
 
-//BinarySearchRecursive, return index from sorted slice
-//sortedSlice must be sorted list
-//low = 0, and high is len(sortedSlice) - 1
-//if index not found return -1 and error
+//  BinarySearchRecursive, return index from sorted slice
+//  sortedSlice must be sorted list
+//  low = 0, and high is len(sortedSlice) - 1
+//  if index not found return -1 and error
 func BinarySearchRecursive(sortedSlice []int, value, low, high int) (index int, err error) {
 
 	middle := (low + high) / 2
