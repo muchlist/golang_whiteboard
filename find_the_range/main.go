@@ -1,6 +1,41 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/muchlist/golang_whiteboard/utils"
+)
+
+func main() {
+
+	/*
+		Write a function that searches a sorted ArrayList and finds the range of particular element.
+		Input :
+		    [1,2,3,3,3,4,5,5,5], 3
+		Output :
+		    2 to 4
+	*/
+	data := []int{1, 2, 3, 3, 3, 4, 5, 5, 5, 6, 6}
+	valueToSearch := 3
+
+	// cara pertama (kotlin whiteboard)
+	// ada bug pada findIndices
+	startIndex, endIndex := findIndices(data, valueToSearch)
+	fmt.Printf("%d to %d\n", startIndex, endIndex)
+
+	// cara kedua
+	// cari index yang diketahui menggunakan binary search
+	indexKnown, err := utils.BinarySearch(data, valueToSearch)
+	if err != nil {
+		fmt.Println("index not found")
+	} else {
+		// berdasarkan index yang diketahui, cari index awal dan akhir
+		startIndex := firstPositionIterate(data, indexKnown)
+		endIndex := lastPositionIterate(data, indexKnown)
+		fmt.Printf("%d to %d\n", startIndex, endIndex)
+	}
+}
+
+// --------------------------Cara Pertama-------------------------------
 
 // Mencari posisi pertama index
 func firstPosition(sortedList []int, value int) int {
@@ -37,22 +72,32 @@ func findIndices(sortedList []int, value int) (int, int) {
 	return startIndex, endIndex - 1
 }
 
-func main() {
+// --------------------------Cara Pertama End-------------------------------
 
-	/*
-		Write a function that searches a sorted ArrayList and finds the range of particular element.
-		Input :
-		    [1,2,3,3,3,4,5,5,5], 3
-		Output :
-		    2 to 4
-	*/
-	data := []int{1, 2, 3, 3, 3, 4, 5, 5, 5, 6, 6}
+// --------------------------Cara Kedua-------------------------------
 
-	startIndex, endIndex := findIndices(data, 3)
-	fmt.Printf("%d to %d", startIndex, endIndex)
-
-	// BEST
-	// Find the index use binary search
-	// Get first position
-	// Get last position
+// mencari index awal dengan perulangan menggunkan index yang sudah diketahui
+// kelemahannya adalah apabila nilai dengan index yang sama ada banyak
+func firstPositionIterate(sortedList []int, index int) int {
+	firstValue := sortedList[index]
+	firstIndex := index
+	for firstIndex != 0 && firstValue == sortedList[firstIndex-1] {
+		firstIndex--
+	}
+	return firstIndex
 }
+
+// mencari index akhir dengan perulangan menggunkan index yang sudah diketahui
+// kelemahannya adalah apabila nilai dengan index yang sama ada banyak
+func lastPositionIterate(sortedList []int, index int) int {
+	firstValue := sortedList[index]
+	firstIndex := index
+	maxIndex := len(sortedList) - 1
+
+	for firstIndex != maxIndex && firstValue == sortedList[firstIndex+1] {
+		firstIndex++
+	}
+	return firstIndex
+}
+
+// --------------------------Cara Kedua End-------------------------------
