@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d66d2fcc-cc32-4951-9509-47c757ed0f6c" name="Default Changelist" comment="bubble sort go">
-      <change afterPath="$PROJECT_DIR$/fizz_buzz/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chipper/chipper1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chipper/chipper2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chipper/chipper_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chipper/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +56,22 @@
       <recent name="D:\CODING\golang_whiteboard\find_the_range\binary_search" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/muchlist/golang_whiteboard/fizz_buzz">
+  <component name="RunManager" selected="Go Test.BenchmarkChipper1 in github.com/muchlist/golang_whiteboard/chipper">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="golang_whiteboard" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/muchlist/golang_whiteboard/chipper" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang_whiteboard" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/muchlist/golang_whiteboard/chipper" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/chipper/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build github.com/muchlist/golang_whiteboard/fizz_buzz" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -70,52 +83,40 @@
       <filePath value="$PROJECT_DIR$/fizz_buzz/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="BenchmarkRemoveAtIndex in github.com/muchlist/golang_whiteboard/utils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="BenchmarkChipper1 in github.com/muchlist/golang_whiteboard/chipper" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang_whiteboard" />
-      <working_directory value="$PROJECT_DIR$/utils" />
+      <working_directory value="$PROJECT_DIR$/chipper" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/muchlist/golang_whiteboard/utils" />
+      <package value="github.com/muchlist/golang_whiteboard/chipper" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gobench" />
-      <pattern value="^\QBenchmarkRemoveAtIndex\E$" />
+      <pattern value="^\QBenchmarkChipper1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="BenchmarkRemoveAtIndexNotSorted in github.com/muchlist/golang_whiteboard/utils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="BenchmarkChipper2 in github.com/muchlist/golang_whiteboard/chipper" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang_whiteboard" />
-      <working_directory value="$PROJECT_DIR$/utils" />
+      <working_directory value="$PROJECT_DIR$/chipper" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/muchlist/golang_whiteboard/utils" />
+      <package value="github.com/muchlist/golang_whiteboard/chipper" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gobench" />
-      <pattern value="^\QBenchmarkRemoveAtIndexNotSorted\E$" />
+      <pattern value="^\QBenchmarkChipper2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestBubbleSort in github.com/muchlist/golang_whiteboard/utils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestChipper in github.com/muchlist/golang_whiteboard/chipper" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang_whiteboard" />
-      <working_directory value="$PROJECT_DIR$/utils" />
+      <working_directory value="$PROJECT_DIR$/chipper" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/muchlist/golang_whiteboard/utils" />
+      <package value="github.com/muchlist/golang_whiteboard/chipper" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestBubbleSort\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestRemoveAtIndexNotSorted in github.com/muchlist/golang_whiteboard/utils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="golang_whiteboard" />
-      <working_directory value="$PROJECT_DIR$/utils" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/muchlist/golang_whiteboard/utils" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestRemoveAtIndexNotSorted\E$" />
+      <pattern value="^\QTestChipper\E$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.BenchmarkChipper1 in github.com/muchlist/golang_whiteboard/chipper" />
+        <item itemvalue="Go Test.BenchmarkChipper2 in github.com/muchlist/golang_whiteboard/chipper" />
+        <item itemvalue="Go Test.TestChipper in github.com/muchlist/golang_whiteboard/chipper" />
+        <item itemvalue="Go Build.go build github.com/muchlist/golang_whiteboard/chipper" />
         <item itemvalue="Go Build.go build github.com/muchlist/golang_whiteboard/fizz_buzz" />
-        <item itemvalue="Go Test.TestBubbleSort in github.com/muchlist/golang_whiteboard/utils" />
-        <item itemvalue="Go Test.BenchmarkRemoveAtIndex in github.com/muchlist/golang_whiteboard/utils" />
-        <item itemvalue="Go Test.BenchmarkRemoveAtIndexNotSorted in github.com/muchlist/golang_whiteboard/utils" />
-        <item itemvalue="Go Test.TestRemoveAtIndexNotSorted in github.com/muchlist/golang_whiteboard/utils" />
       </list>
     </recent_temporary>
   </component>
