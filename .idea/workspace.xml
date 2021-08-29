@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d66d2fcc-cc32-4951-9509-47c757ed0f6c" name="Default Changelist" comment="find range">
-      <change afterPath="$PROJECT_DIR$/utils/binary_search_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/remove_in_slice.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/remove_in_slice_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/string_reverse.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/string_reverse_test.go" afterDir="false" />
+    <list default="true" id="d66d2fcc-cc32-4951-9509-47c757ed0f6c" name="Default Changelist" comment="add utils func">
+      <change afterPath="$PROJECT_DIR$/utils/bubble_sort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/bubble_sort_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/binary_search.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/binary_search.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +54,15 @@
       <recent name="D:\CODING\golang_whiteboard\find_the_range\binary_search" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.BenchmarkRemoveAtIndex in github.com/muchlist/golang_whiteboard/utils">
+  <component name="RunManager" selected="Go Test.TestBubbleSort in github.com/muchlist/golang_whiteboard/utils">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="golang_whiteboard" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="BenchmarkRemoveAtIndex in github.com/muchlist/golang_whiteboard/utils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang_whiteboard" />
       <working_directory value="$PROJECT_DIR$/utils" />
@@ -82,6 +85,18 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gobench" />
       <pattern value="^\QBenchmarkRemoveAtIndexNotSorted\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestBubbleSort in github.com/muchlist/golang_whiteboard/utils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golang_whiteboard" />
+      <working_directory value="$PROJECT_DIR$/utils" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/muchlist/golang_whiteboard/utils" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestBubbleSort\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestRemoveAtIndex in github.com/muchlist/golang_whiteboard/utils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -108,25 +123,22 @@
       <pattern value="^\QTestRemoveAtIndexNotSorted\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestReverseString in github.com/muchlist/golang_whiteboard/utils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="golang_whiteboard" />
-      <working_directory value="$PROJECT_DIR$/utils" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/muchlist/golang_whiteboard/utils" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestReverseString\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestBubbleSort in github.com/muchlist/golang_whiteboard/utils" />
         <item itemvalue="Go Test.BenchmarkRemoveAtIndex in github.com/muchlist/golang_whiteboard/utils" />
         <item itemvalue="Go Test.BenchmarkRemoveAtIndexNotSorted in github.com/muchlist/golang_whiteboard/utils" />
         <item itemvalue="Go Test.TestRemoveAtIndexNotSorted in github.com/muchlist/golang_whiteboard/utils" />
         <item itemvalue="Go Test.TestRemoveAtIndex in github.com/muchlist/golang_whiteboard/utils" />
-        <item itemvalue="Go Test.TestReverseString in github.com/muchlist/golang_whiteboard/utils" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +161,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Binary Search imp" />
     <MESSAGE value="find range" />
-    <option name="LAST_COMMIT_MESSAGE" value="find range" />
+    <MESSAGE value="add utils func" />
+    <option name="LAST_COMMIT_MESSAGE" value="add utils func" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
