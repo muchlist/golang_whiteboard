@@ -12,3 +12,18 @@ func ReverseString(text string) string {
 
 	return string(runeStr)
 }
+
+func ReverseStringStack(text string) string {
+	stack := NewStackString()
+	runeStr := make([]rune, len(text))
+	for _, char := range text {
+		stack.Push(string(char))
+	}
+
+	for i:= 0; i < len(text); i++ {
+		r, _ := stack.Pop()
+		runeStr[i] = []rune(r)[0]
+	}
+
+	return string(runeStr)
+}

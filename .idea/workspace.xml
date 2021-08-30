@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d66d2fcc-cc32-4951-9509-47c757ed0f6c" name="Default Changelist" comment="selection sort">
-      <change afterPath="$PROJECT_DIR$/utils/sets.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/sets_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/stack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/stack_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/palindrome/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/palindrome/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/bubble_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/sort.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/bubble_sort_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/sort_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/string_reverse.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/string_reverse.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,15 +55,7 @@
       <recent name="D:\CODING\golang_whiteboard\find_the_range\binary_search" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.BenchmarkBubbleSort in github.com/muchlist/golang_whiteboard/utils">
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="golang_whiteboard" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestNewStackString in github.com/muchlist/golang_whiteboard/utils">
     <configuration name="BenchmarkBubbleSort in github.com/muchlist/golang_whiteboard/utils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang_whiteboard" />
       <working_directory value="$PROJECT_DIR$/utils" />
@@ -102,7 +92,7 @@
       <pattern value="^\QTestAddSet\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestNewSet in github.com/muchlist/golang_whiteboard/utils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNewStackString in github.com/muchlist/golang_whiteboard/utils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang_whiteboard" />
       <working_directory value="$PROJECT_DIR$/utils" />
       <root_directory value="$PROJECT_DIR$" />
@@ -111,7 +101,7 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestNewSet\E$" />
+      <pattern value="^\QTestNewStackString\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestSelectionSort in github.com/muchlist/golang_whiteboard/utils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -126,22 +116,13 @@
       <pattern value="^\QTestSelectionSort\E$" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="golang_whiteboard" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestNewStackString in github.com/muchlist/golang_whiteboard/utils" />
         <item itemvalue="Go Test.BenchmarkBubbleSort in github.com/muchlist/golang_whiteboard/utils" />
         <item itemvalue="Go Test.BenchmarkSelectionSort in github.com/muchlist/golang_whiteboard/utils" />
         <item itemvalue="Go Test.TestSelectionSort in github.com/muchlist/golang_whiteboard/utils" />
         <item itemvalue="Go Test.TestAddSet in github.com/muchlist/golang_whiteboard/utils" />
-        <item itemvalue="Go Test.TestNewSet in github.com/muchlist/golang_whiteboard/utils" />
       </list>
     </recent_temporary>
   </component>
