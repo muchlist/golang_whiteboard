@@ -1,15 +1,16 @@
 package main
 
-func encrypt(text string, inc int32) string {
+func caesarChipperImprove(text string, inc int32) string {
 	runeText := []rune(text)
 	for i, char := range runeText {
-		// cek apakah char huruf besar
 		runeText[i] = chipper(char, inc)
 	}
 	return string(runeText)
 }
 
 func chipper(char rune, inc int32) rune {
+
+	inc = inc % 26
 
 	// selain a-z A-Z return seadanya
 	if char > 'z' || char < 'a' && char > 'Z' || char < 'A' {

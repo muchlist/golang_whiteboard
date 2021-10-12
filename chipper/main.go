@@ -4,6 +4,6 @@ import "fmt"
 
 func main() {
 	text := "abcdEfg-!!!-efGhijk"
-	encryptedText := encrypt(text, 1)
+	encryptedText := caesarChipperImprove(text, 5)
 	fmt.Println(encryptedText)
 }

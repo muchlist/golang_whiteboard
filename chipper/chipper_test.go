@@ -7,7 +7,7 @@ import (
 
 func TestChipper(t *testing.T) {
 	text := "abcdEfg-!"
-	encryptedText := encrypt(text, 1)
+	encryptedText := caesarChipperImprove(text, 1)
 	encryptedText2 := caesarCipher(text, 1)
 
 	assert.Equal(t, "bcdeFgh-!", encryptedText)
@@ -18,7 +18,7 @@ func TestChipper(t *testing.T) {
 func BenchmarkChipper1(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		text := "abcdEfg-!asdasdadasdasdadsad"
-		_ = encrypt(text, 12)
+		_ = caesarChipperImprove(text, 12)
 	}
 }
 
