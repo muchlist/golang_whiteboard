@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d66d2fcc-cc32-4951-9509-47c757ed0f6c" name="Default Changelist" comment="selection sort">
-      <change afterPath="$PROJECT_DIR$/utils/queue.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/queue_test.go" afterDir="false" />
+    <list default="true" id="d66d2fcc-cc32-4951-9509-47c757ed0f6c" name="Default Changelist" comment="update chipper and add queue">
+      <change afterPath="$PROJECT_DIR$/sparse_array/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time_conversion/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chipper/chipper1.go" beforeDir="false" afterPath="$PROJECT_DIR$/chipper/chipper1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chipper/chipper_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/chipper/chipper_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chipper/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/chipper/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +54,7 @@
       <recent name="D:\CODING\golang_whiteboard\find_the_range\binary_search" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/muchlist/golang_whiteboard/chipper">
+  <component name="RunManager" selected="Go Build.go build github.com/muchlist/golang_whiteboard/time_conversion">
     <configuration name="go build github.com/muchlist/golang_whiteboard/chipper" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang_whiteboard" />
       <working_directory value="$PROJECT_DIR$" />
@@ -67,61 +64,55 @@
       <filePath value="$PROJECT_DIR$/chipper/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="BenchmarkReverseString in github.com/muchlist/golang_whiteboard/utils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/muchlist/golang_whiteboard/sparse_array" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang_whiteboard" />
-      <working_directory value="$PROJECT_DIR$/utils" />
-      <root_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/muchlist/golang_whiteboard/utils" />
+      <package value="github.com/muchlist/golang_whiteboard/sparse_array" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gobench" />
-      <pattern value="^\QBenchmarkReverseString\E$" />
+      <filePath value="$PROJECT_DIR$/sparse_array/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="BenchmarkReverseStringStack in github.com/muchlist/golang_whiteboard/utils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/muchlist/golang_whiteboard/time_conversion" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang_whiteboard" />
-      <working_directory value="$PROJECT_DIR$/utils" />
-      <root_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/muchlist/golang_whiteboard/utils" />
+      <package value="github.com/muchlist/golang_whiteboard/time_conversion" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gobench" />
-      <pattern value="^\QBenchmarkReverseStringStack\E$" />
+      <filePath value="$PROJECT_DIR$/time_conversion/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestNewQueue in github.com/muchlist/golang_whiteboard/utils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNewQueue in github.com/muchlist/golang_whiteboard/experiment" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang_whiteboard" />
-      <working_directory value="$PROJECT_DIR$/utils" />
+      <working_directory value="$PROJECT_DIR$/experiment" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/muchlist/golang_whiteboard/utils" />
+      <package value="github.com/muchlist/golang_whiteboard/experiment" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestNewQueue\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestReverseStringStack in github.com/muchlist/golang_whiteboard/utils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestReverse in github.com/muchlist/golang_whiteboard/experiment" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang_whiteboard" />
-      <working_directory value="$PROJECT_DIR$/utils" />
+      <working_directory value="$PROJECT_DIR$/experiment" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/muchlist/golang_whiteboard/utils" />
+      <package value="github.com/muchlist/golang_whiteboard/experiment" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestReverseStringStack\E$" />
+      <pattern value="^\QTestReverse\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/muchlist/golang_whiteboard/time_conversion" />
+        <item itemvalue="Go Build.go build github.com/muchlist/golang_whiteboard/sparse_array" />
+        <item itemvalue="Go Test.TestReverse in github.com/muchlist/golang_whiteboard/experiment" />
+        <item itemvalue="Go Test.TestNewQueue in github.com/muchlist/golang_whiteboard/experiment" />
         <item itemvalue="Go Build.go build github.com/muchlist/golang_whiteboard/chipper" />
-        <item itemvalue="Go Test.TestNewQueue in github.com/muchlist/golang_whiteboard/utils" />
-        <item itemvalue="Go Test.BenchmarkReverseStringStack in github.com/muchlist/golang_whiteboard/utils" />
-        <item itemvalue="Go Test.TestReverseStringStack in github.com/muchlist/golang_whiteboard/utils" />
-        <item itemvalue="Go Test.BenchmarkReverseString in github.com/muchlist/golang_whiteboard/utils" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +140,8 @@
     <MESSAGE value="chipper" />
     <MESSAGE value="isPalindrome" />
     <MESSAGE value="selection sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="selection sort" />
+    <MESSAGE value="update chipper and add queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="update chipper and add queue" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
