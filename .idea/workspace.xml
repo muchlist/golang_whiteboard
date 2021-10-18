@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d66d2fcc-cc32-4951-9509-47c757ed0f6c" name="Default Changelist" comment="add sparse array and time conversion" />
+    <list default="true" id="d66d2fcc-cc32-4951-9509-47c757ed0f6c" name="Default Changelist" comment="lonely integer">
+      <change afterPath="$PROJECT_DIR$/flipping_bits/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,13 +53,22 @@
       <recent name="D:\CODING\golang_whiteboard\find_the_range\binary_search" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/muchlist/golang_whiteboard/lonely_integer">
+  <component name="RunManager" selected="Go Build.go build github.com/muchlist/golang_whiteboard/flipping_bits">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="golang_whiteboard" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/muchlist/golang_whiteboard/flipping_bits" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang_whiteboard" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/muchlist/golang_whiteboard/flipping_bits" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/flipping_bits/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build github.com/muchlist/golang_whiteboard/lonely_integer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -86,18 +98,6 @@
       <filePath value="$PROJECT_DIR$/time_conversion/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestNewQueue in github.com/muchlist/golang_whiteboard/experiment" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="golang_whiteboard" />
-      <working_directory value="$PROJECT_DIR$/experiment" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/muchlist/golang_whiteboard/experiment" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestNewQueue\E$" />
-      <method v="2" />
-    </configuration>
     <configuration name="TestReverse in github.com/muchlist/golang_whiteboard/experiment" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang_whiteboard" />
       <working_directory value="$PROJECT_DIR$/experiment" />
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/muchlist/golang_whiteboard/flipping_bits" />
         <item itemvalue="Go Build.go build github.com/muchlist/golang_whiteboard/lonely_integer" />
         <item itemvalue="Go Build.go build github.com/muchlist/golang_whiteboard/time_conversion" />
         <item itemvalue="Go Build.go build github.com/muchlist/golang_whiteboard/sparse_array" />
         <item itemvalue="Go Test.TestReverse in github.com/muchlist/golang_whiteboard/experiment" />
-        <item itemvalue="Go Test.TestNewQueue in github.com/muchlist/golang_whiteboard/experiment" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +155,8 @@
     <MESSAGE value="selection sort" />
     <MESSAGE value="update chipper and add queue" />
     <MESSAGE value="add sparse array and time conversion" />
-    <option name="LAST_COMMIT_MESSAGE" value="add sparse array and time conversion" />
+    <MESSAGE value="lonely integer" />
+    <option name="LAST_COMMIT_MESSAGE" value="lonely integer" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
