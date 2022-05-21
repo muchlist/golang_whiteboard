@@ -16,14 +16,14 @@ func (s *stackString) Push(text string) {
 
 func (s *stackString) Top() (string, error) {
 	if s.Empty() {
-		return "", errors.New("Stack is empty")
+		return "", errors.New("stack is empty")
 	}
 	return s.data[len(s.data)-1], nil
 }
 
 func (s *stackString) Pop() (string, error) {
 	if s.Empty() {
-		return "", errors.New("Stack is empty")
+		return "", errors.New("stack is empty")
 	}
 	popReturn := s.data[len(s.data)-1]
 	s.data = s.data[:len(s.data)-1]
